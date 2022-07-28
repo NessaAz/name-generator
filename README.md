@@ -1,16 +1,29 @@
 # startup_namer
 
-A new Flutter project.
+This app enables a user to generate a name for their start up. 
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Deployment
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Built With
+
+* [flutter](https://docs.flutter.dev/) 
+
+
+## Contributing
+* fork the repository and commit the changes under a new-contributing branch for versioning
+
+## Authors
+
+* **Vanessa Azenwa Shiundu** - *Initial work* - [NessaAz](https://github.com/NessaAz)
+
+## License
+This project is licensed under the MIT License  
+[MIT License](./LICENSE)
+
+ [Go Back to the top](#portfolio)
