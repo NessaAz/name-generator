@@ -58,9 +58,18 @@ class _RandomWordsState extends State<RandomWords> {
           ),
           trailing: Icon(
             alreadySaved ? Icons.favorite : Icons.favorite_border,
-            color:alreadySaved ? const Color.fromARGB(255, 179, 53, 93): null,
-            semanticLabel: alreadySaved ? 'Remove from saved': 'Save',
+            color: alreadySaved ? const Color.fromARGB(255, 179, 53, 93) : null,
+            semanticLabel: alreadySaved ? 'Remove from saved' : 'Save',
           ),
+          onTap: () {
+            setState(() {
+              if (alreadySaved) {
+                _saved.remove(_suggestions[index]);
+              } else {
+                _saved.add(_suggestions[index]);
+              }
+            });
+          },
         );
       },
     );
